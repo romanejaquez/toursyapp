@@ -58,7 +58,6 @@ class Repository {
   static AttractionModel getCurrentAttraction() {
     return allAttractions().firstWhere((a) => a.id == currentAttraction);
   }
-
 }
 
 class AttractionModel {
@@ -187,73 +186,60 @@ class MainListScreen extends StatelessWidget {
     {
       allCards.add(Container(
           padding: EdgeInsets.all(10.0),
-            child: Card(
+            child: GestureDetector(
+              child: Card(
             elevation: 3.0,
             clipBehavior: Clip.antiAliasWithSaveLayer,
             margin: EdgeInsets.all(10.0),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(10.0),
             ) ,
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.start,
-              crossAxisAlignment: CrossAxisAlignment.stretch,
+            child: Stack(
+              alignment: Alignment.bottomCenter,
               children: <Widget>[
                 Image.network(attraction.img),
                 Container(
-                    padding: EdgeInsets.all(20.0),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.stretch,
-                      children: <Widget>[
-                        Container(
-                          child: Text(
-                            attraction.name,
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              fontSize: 20.0,
-                            ),
-                            textAlign: TextAlign.left,
-                            ),
-                      ),
-                        Container(
-                          padding: EdgeInsets.only(bottom: 10.0),
-                          child: Text(attraction.province,
-                            style: TextStyle(
-                              fontStyle: FontStyle.italic,
-                              fontSize: 15.0,
-                              color: Color.fromRGBO(140, 140, 140, 1.0)
-                            ),
-                          ),
-                        ),
-                        Text(
-                          attraction.description,
-                          style: TextStyle(
-                            fontSize: 15.0
-                          ),
-                          textAlign: TextAlign.left
-                        )
-                      ],
+                  height: 100.0,
+                  alignment: Alignment.bottomCenter,
+                  padding: EdgeInsets.all(10.0),
+                  decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                      begin: Alignment.bottomCenter,
+                      end: Alignment.topCenter,
+                      colors: [Color.fromRGBO(0, 0, 0, 0.8), Colors.transparent], // whitish to gray
                     ),
                   ),
-                Container(
-                  padding: EdgeInsets.only(left: 12.0, right: 12.0, bottom: 10.0),
-                  child: RaisedButton(
-                    child: Text('More Information',
-                    style: TextStyle(color: Color.fromRGBO(255, 255, 255, 1.0)),),
-                    onPressed: () {
-                      Repository.currentAttraction = attraction.id;
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => AttractionDetails())
-                      );
-                    },
-                    color: Color.fromRGBO(31, 152, 255, 1.0),
-                  )
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: <Widget>[
+                      Text(attraction.name,
+                      textAlign: TextAlign.left,
+                      style: TextStyle(
+                        fontSize: 20.0,
+                        color: Color.fromRGBO(255, 255, 255, 1.0),
+                        fontWeight: FontWeight.bold)),
+                      Text(attraction.province, 
+                      textAlign: TextAlign.left,
+                      style: TextStyle(
+                        fontSize: 15.0,
+                        color: Color.fromRGBO(255, 255, 255, 1.0),
+                        fontWeight: FontWeight.normal,
+                        fontStyle: FontStyle.italic))
+                    ],
+                  ),
                 )
-            ],
-          ),
-        ),
-        )
-          );
+              ],
+            )),
+            onTap: () {
+              Repository.currentAttraction = attraction.id;
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => AttractionDetails())
+              );
+            },
+            ))
+      );
     }
 
     return allCards;
@@ -316,6 +302,41 @@ class AttractionDetails extends StatelessWidget {
             Hero(
               tag: "mainHero",
               child: Image.network(currentAttraction.img),
+            ),
+            Container(
+              padding: EdgeInsets.all(20.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: <Widget>[
+                  Container(
+                    child: Text(
+                      currentAttraction.name,
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 20.0,
+                      ),
+                      textAlign: TextAlign.left,
+                      ),
+                ),
+                  Container(
+                    padding: EdgeInsets.only(bottom: 10.0),
+                    child: Text(currentAttraction.province,
+                      style: TextStyle(
+                        fontStyle: FontStyle.italic,
+                        fontSize: 15.0,
+                        color: Color.fromRGBO(140, 140, 140, 1.0)
+                      ),
+                    ),
+                  ),
+                  Text(
+                    currentAttraction.description,
+                    style: TextStyle(
+                      fontSize: 15.0
+                    ),
+                    textAlign: TextAlign.left
+                  )
+                ],
+              ),
             )
           ],
         ),
