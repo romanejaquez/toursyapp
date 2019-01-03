@@ -1,6 +1,6 @@
-# sampleapp
+# ToursyApp
 
-A new Flutter project.
+A Flutter app for tourism in the Dominican Republic.
 
 ## Getting Started
 
