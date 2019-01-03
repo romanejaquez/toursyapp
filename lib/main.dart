@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'dart:core';
 
@@ -90,7 +89,7 @@ class SplashPage extends StatelessWidget {
       new Timer(new Duration(days: 0, hours: 0, minutes: 0, seconds: 2, microseconds: 0, milliseconds: 0), () {
         Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => ToursyApp())
+              MaterialPageRoute(builder: (context) => MainListScreen())
             );
       });
     });
@@ -119,8 +118,7 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
+    return Container(
         decoration: new BoxDecoration(
           image: new DecorationImage(
             image: new AssetImage("assets/homebg.png"),
@@ -176,7 +174,6 @@ class HomeScreen extends StatelessWidget {
               )
             ],
           ),
-    )
     );
   }
 }
@@ -270,23 +267,21 @@ class MainListScreen extends StatelessWidget {
         child: Scaffold(
         appBar: AppBar(
           automaticallyImplyLeading: false,
-          title: Image.asset("assets/toursy_logo.png",
-          width: 100.0),
+          title: Center(
+            child: Image.asset("assets/toursy_logo.png",
+            width: 100.0),),
           backgroundColor: Color.fromRGBO(84, 192, 160, 1.0),
           bottom: TabBar(
             tabs: <Widget>[
-              Tab(icon: Container(
-                padding: EdgeInsets.all(5.0),
-                child: Image.asset('assets/badge_icon.png',)
-              )),
-              Tab(icon: Container(
-                padding: EdgeInsets.all(5.0),
-                child: Image.asset('assets/dr_map_white.png',),
-              )),
-              Tab(icon: Container(
-                padding: EdgeInsets.all(5.0),
-                child: Image.asset('assets/activity_icon.png',),
-              ))
+              Tab(text: "Top Rated",
+              icon: Image.asset('assets/badge_icon.png',
+              height: 22.0, width: 22.0,)),
+              Tab(text: "By Region", 
+              icon: Image.asset('assets/dr_map_white.png',
+              height: 22.0, width: 22.0)),
+              Tab(text: "By Activity", 
+              icon:Image.asset('assets/activity_icon.png',
+              height: 22.0, width: 22.0)),
             ],
           ),
         ),
