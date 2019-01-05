@@ -1,4 +1,4 @@
-import './attraction_model.dart';
+import 'package:sampleapp/attraction_model.dart';
 
 class RegionModel {
   String id;
