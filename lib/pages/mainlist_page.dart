@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'dart:core';
 import 'package:sampleapp/repository.dart';
 import 'package:sampleapp/pages/attractiondetails_page.dart';
+import 'package:sampleapp/pages/regionlist_page.dart';
+import 'package:sampleapp/pages/activityattractions_page.dart';
 
 class MainListScreen extends StatelessWidget {
   
@@ -16,11 +18,11 @@ class MainListScreen extends StatelessWidget {
         bottomLabel: attraction.province,
         imgPath: attraction.img,
         onTap: () {
-              Repository.currentAttraction = attraction.id;
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => AttractionDetails())
-              );
+          Repository.currentAttraction = attraction.id;
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => AttractionDetails())
+          );
         }
       )
       );
@@ -41,6 +43,10 @@ class MainListScreen extends StatelessWidget {
         imgPath: activity.img,
         onTap: () {
           Repository.currentActivity = activity.id;
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => ActivityAttractionsListPage())
+          );
         }
       ));
     }
@@ -60,6 +66,10 @@ class MainListScreen extends StatelessWidget {
         imgPath: region.img,
         onTap: () {
           Repository.currentRegion = region.id;
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => RegionListPage())
+          );
         }
       ));
     }

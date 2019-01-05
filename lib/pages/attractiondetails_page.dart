@@ -6,6 +6,7 @@ import 'package:sampleapp/attraction_model.dart';
 class AttractionDetails extends StatelessWidget {
 
   final AttractionModel currentAttraction = Repository.getCurrentAttraction();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

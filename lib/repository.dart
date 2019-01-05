@@ -19,12 +19,12 @@ class Repository {
         "attractionsByRegion": [
             {
                 "regionData": {
-                    "id": "region1",
+                    "id": "r1",
                     "region": "Center of the Island",
                     "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/centerisland.jpg",
                     "attractions": [
                         {
-                            "id": "region1attr1",
+                            "id": "r1a1",
                             "name": "Vega Vieja",
                             "province": "La Vega",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/centerisland/vega-vieja.jpg",
@@ -32,7 +32,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region1attr2",
+                            "id": "r1a2",
                             "name": "Plaza de la Cultura",
                             "province": "Bonao",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/centerisland/plaza-de-la-cultura.jpg",
@@ -40,7 +40,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region1attr3",
+                            "id": "r1a3",
                             "name": "Carnaval Bonao",
                             "province": "Bonao",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/centerisland/carnaval-bonao.jpg",
@@ -48,7 +48,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region1attr4",
+                            "id": "r1a4",
                             "name": "Santo Cerro",
                             "province": "La Vega",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/centerisland/santo-cerro.jpg",
@@ -56,7 +56,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region1attr5",
+                            "id": "r1a5",
                             "name": "Pico Duarte",
                             "province": "La Vega",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/centerisland/pico-duarte.jpg",
@@ -64,7 +64,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region1attr6",
+                            "id": "r1a6",
                             "name": "Carnaval Vegano",
                             "province": "La Vega",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/centerisland/carnaval-vegano.jpg",
@@ -72,7 +72,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region1attr7",
+                            "id": "r1a7",
                             "name": "Monumento a los Heroes",
                             "province": "Santiago",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/centerisland/monumento-heroes.jpg",
@@ -80,7 +80,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region1attr8",
+                            "id": "r1a8",
                             "name": "Museo del Tabaco",
                             "province": "Santiago",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/centerisland/museo-del-tabaco.jpg",
@@ -88,7 +88,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region1attr9",
+                            "id": "r1a9",
                             "name": "Carnaval de Santiago",
                             "province": "Santiago",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/centerisland/carnaval-santiago.jpg",
@@ -96,7 +96,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region1attr10",
+                            "id": "r1a10",
                             "name": "Piramides de Valle Nuevo",
                             "province": "Constanza",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/centerisland/las-piramides-de-valle-nuevo.jpg",
@@ -104,7 +104,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region1attr11",
+                            "id": "r1a11",
                             "name": "Parque Nacional Los Haitises",
                             "province": "Monte Plata",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/centerisland/los-haitises.jpg",
@@ -112,7 +112,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region1attr12",
+                            "id": "r1a12",
                             "name": "Salto Alto de Bayaguana",
                             "province": "Monte Plata",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/centerisland/salto-de-comatillo.jpg",
@@ -124,12 +124,12 @@ class Repository {
             },
             {
                 "regionData": {
-                    "id": "region2",
+                    "id": "r2",
                     "region": "Border Region",
                     "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/frontier.jpg",
                     "attractions": [
                         {
-                            "id": "region2attr1",
+                            "id": "r2a1",
                             "name": "Balneario Loma de Cabrera",
                             "province": "Dajabón",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/frontier/balneario-loma-de-cabrera.jpg",
@@ -137,7 +137,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region2attr2",
+                            "id": "r2a2",
                             "name": "Monumento de la Restauracion Capotillo",
                             "province": "Dajabón",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/frontier/monumento_a_la_restauracion.jpg",
@@ -145,7 +145,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region2attr3",
+                            "id": "r2a3",
                             "name": "El Morro",
                             "province": "Montecristi",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/frontier/el-morro.jpg",
@@ -153,7 +153,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region2attr4",
+                            "id": "r2a4",
                             "name": "El Reloj Público",
                             "province": "Montecristi",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/frontier/el-reloj-publico.jpg",
@@ -161,7 +161,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region2attr5",
+                            "id": "r2a5",
                             "name": "Scuba Diving",
                             "province": "Montecristi",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/frontier/scuba-montecristi.jpg",
@@ -169,7 +169,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region2attr6",
+                            "id": "r2a6",
                             "name": "Parque Nacional Montecristi",
                             "province": "Montecristi",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/frontier/parque-nacional-montecristi.jpg",
@@ -181,12 +181,12 @@ class Repository {
             },
             {
                 "regionData": {
-                    "id": "region3",
+                    "id": "r3",
                     "region": "North Region",
                     "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/north.jpg",
                     "attractions": [
                         {
-                            "id": "region3attr1",
+                            "id": "r3a1",
                             "name": "27 Charcos de Damajagua",
                             "province": "Puerto Plata",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/north/charcos-damajagua.jpg",
@@ -194,7 +194,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region3attr2",
+                            "id": "r3a2",
                             "name": "Teleférico",
                             "province": "Loma Isabel de Torres, Puerto Plata",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/north/teleferico-puerto-plata.jpg",
@@ -202,7 +202,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region3attr3",
+                            "id": "r3a3",
                             "name": "El Cristo",
                             "province": "Loma Isabel de Torres, Puerto Plata",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/north/cristo-loma-isabel.jpg",
@@ -210,7 +210,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region3attr4",
+                            "id": "r3a4",
                             "name": "Museo del Ambar",
                             "province": "Puerto Plata",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/north/museo-del-ambar.jpg",
@@ -218,7 +218,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region3attr5",
+                            "id": "r3a5",
                             "name": "Ruinas de La Isabela",
                             "province": "Puerto Plata",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/north/ruinas-la-isabela.jpg",
@@ -226,7 +226,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region3attr6",
+                            "id": "r3a6",
                             "name": "Fortaleza San Felipe",
                             "province": "Puerto Plata",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/north/fortaleza-san-felipe.jpg",
@@ -234,7 +234,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region3attr7",
+                            "id": "r3a7",
                             "name": "Cayo Arena Beach",
                             "province": "Punta Rucia / Puerto Plata",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/north/cayo-arena.jpg",
@@ -246,12 +246,12 @@ class Repository {
             },
             {
                 "regionData": {
-                    "id": "region4",
+                    "id": "r4",
                     "region": "Northeast Region",
                     "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/northeast.jpg",
                     "attractions": [
                         {
-                            "id": "region4attr1",
+                            "id": "r4a1",
                             "name": "Cayo Levantado",
                             "province": "Samaná",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/northeast/cayo-levantado.jpg",
@@ -259,7 +259,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region4attr2",
+                            "id": "r4a2",
                             "name": "Bahía Príncipe",
                             "province": "Samaná",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/northeast/bahia-principe.jpg",
@@ -267,7 +267,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region4attr3",
+                            "id": "r4a3",
                             "name": "Observacion de Ballenas Jorobadas",
                             "province": "Samaná",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/northeast/ballenas-jorobadas.jpg",
@@ -275,7 +275,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region4attr4",
+                            "id": "r4a4",
                             "name": "Salto El Limón",
                             "province": "Samaná",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/northeast/salto-el-limon.jpg",
@@ -283,7 +283,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region4attr5",
+                            "id": "r4a5",
                             "name": "Carnaval de Salcedo",
                             "province": "Salcedo",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/northeast/carnaval-salcedo.jpg",
@@ -291,7 +291,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region4attr6",
+                            "id": "r4a6",
                             "name": "Museo de las Hermanas Mirabal",
                             "province": "Salcedo",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/northeast/museo-hermanas-mirabal.jpg",
@@ -299,7 +299,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region4attr7",
+                            "id": "r4a7",
                             "name": "Mirador de La Cumbre",
                             "province": "Espaillat",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/northeast/mirador-la-cumbre.jpg",
@@ -311,12 +311,12 @@ class Repository {
             },
             {
                 "regionData": {
-                    "id": "region5",
+                    "id": "r5",
                     "region": "Southeast Region",
                     "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/east.jpg",
                     "attractions": [
                         {
-                            "id": "region5attr1",
+                            "id": "r5a1",
                             "name": "Zona Colonial",
                             "province": "Distrito Nacional",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/zona-colonial.jpg",
@@ -324,7 +324,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region5attr2",
+                            "id": "r5a2",
                             "name": "Museo del Ambar",
                             "province": "Distrito Nacional",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/museo-del-ambar-santo-domingo.jpg",
@@ -332,7 +332,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region5attr3",
+                            "id": "r5a3",
                             "name": "Acuario Nacional",
                             "province": "Distrito Nacional",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/acuario-nacional-santo-domingo.jpg",
@@ -340,7 +340,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region5attr4",
+                            "id": "r5a4",
                             "name": "Faro a Colón",
                             "province": "Distrito Nacional",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/faro-a-colon.jpg",
@@ -348,7 +348,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region5attr5",
+                            "id": "r5a5",
                             "name": "Jardin Botánico",
                             "province": "Distrito Nacional",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/jardin-botanico-santo-domingo.jpg",
@@ -356,7 +356,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region5attr6",
+                            "id": "r5a6",
                             "name": "Los Tres Ojos",
                             "province": "Distrito Nacional",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/los-tres-ojos.jpg",
@@ -364,7 +364,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region5attr7",
+                            "id": "r5a7",
                             "name": "Desfile Nacional del Carnaval",
                             "province": "Distrito Nacional",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/carnaval-santo-domingo.jpg",
@@ -372,7 +372,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region5attr8",
+                            "id": "r5a8",
                             "name": "Parque Nacional Submarino La Caleta",
                             "province": "Distrito Nacional",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/parque-submarino-la-caleta.jpg",
@@ -380,7 +380,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region5attr9",
+                            "id": "r5a9",
                             "name": "Los Guloyas",
                             "province": "San Pedro de Macorís",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/east/los-guloyas.jpg",
@@ -388,7 +388,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region5attr10",
+                            "id": "r5a10",
                             "name": "Caverna de las Maravillas",
                             "province": "San Pedro de Macorís",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/east/cueva-las-maravillas.jpg",
@@ -396,7 +396,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region5attr11",
+                            "id": "r5a11",
                             "name": "Altos de Chavón",
                             "province": "La Romana",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/east/altos-de-chavon.jpg",
@@ -404,7 +404,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region5attr12",
+                            "id": "r5a12",
                             "name": "Isla Catalina",
                             "province": "La Romana",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/east/isla-catalina.jpg",
@@ -412,7 +412,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region5attr13",
+                            "id": "r5a13",
                             "name": "Scuba Diving in La Romana",
                             "province": "La Romana",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/east/scuba-diving-la-romana.jpg",
@@ -420,7 +420,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region5attr14",
+                            "id": "r5a14",
                             "name": "Punta Cana",
                             "province": "La Altagracia",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/east/punta-cana.jpg",
@@ -428,7 +428,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region5attr15",
+                            "id": "r5a15",
                             "name": "Isla Saona",
                             "province": "La Altagracia",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/east/isla-saona.jpg",
@@ -436,7 +436,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region5attr16",
+                            "id": "r5a16",
                             "name": "Hoyo Azul Cap Cana",
                             "province": "Punta Cana / La Altagracia",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/east/hoyo-azul.jpg",
@@ -444,7 +444,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region5attr17",
+                            "id": "r5a17",
                             "name": "Laguna de Bávaro",
                             "province": "La Altagracia",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/east/laguna-bavaro.jpg",
@@ -452,7 +452,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region5attr18",
+                            "id": "r5a18",
                             "name": "Basilica Nuestra Señora de la Altagracia",
                             "province": "La Altagracia",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/east/basilica-higuey.jpg",
@@ -460,7 +460,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region5attr19",
+                            "id": "r5a19",
                             "name": "Museo Colonial Ponce de León",
                             "province": "La Altagracia",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/east/museo-ponce-de-leon.jpg",
@@ -468,7 +468,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region5attr20",
+                            "id": "r5a20",
                             "name": "Parque Nacional del Limón",
                             "province": "El Seibo",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/east/parque-nacional-del-limon.jpg",
@@ -480,12 +480,12 @@ class Repository {
             },
             {
                 "regionData": {
-                    "id": "region6",
+                    "id": "r6",
                     "region": "Southwest Region",
                     "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/southwest.jpg",
                     "attractions": [
                         {
-                            "id": "region6attr1",
+                            "id": "r6a1",
                             "name": "Ruinas de Ingenios Azucareros del siglo XVI (Boca de Nigua)",
                             "province": "San Cristóbal",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/ruinas-ingenios.jpg",
@@ -493,7 +493,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr2",
+                            "id": "r6a2",
                             "name": "Complejo de Cavernas del Pomier",
                             "province": "San Cristóbal",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/cuevas-pomier.jpg",
@@ -501,7 +501,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr3",
+                            "id": "r6a3",
                             "name": "Balneario de La Toma",
                             "province": "San Cristóbal",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/balneario-la-toma.jpg",
@@ -509,7 +509,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr4",
+                            "id": "r6a4",
                             "name": "Murales de Vela Zanetti",
                             "province": "San Cristóbal",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/murales-vela-zanetti.jpg",
@@ -517,7 +517,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr5",
+                            "id": "r6a5",
                             "name": "Playa de Palenque",
                             "province": "San Cristobal",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/playa-de-palenque.jpg",
@@ -525,7 +525,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr6",
+                            "id": "r6a6",
                             "name": "Las Dunas",
                             "province": "Peravia",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/las-dunas-bani.jpg",
@@ -533,7 +533,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr7",
+                            "id": "r6a7",
                             "name": "Templo de Piedra de Las Tablas",
                             "province": "Peravia",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/templo-de-piedra-las-tablas.jpg",
@@ -541,7 +541,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr8",
+                            "id": "r6a8",
                             "name": "Las Salinas",
                             "province": "Peravia",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/las-salinas-peravia.jpg",
@@ -549,7 +549,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr9",
+                            "id": "r6a9",
                             "name": "Playa Blanca",
                             "province": "Peravia",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/playa-blanca.jpg",
@@ -557,7 +557,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr10",
+                            "id": "r6a10",
                             "name": "Aguas Termales de la Sierra de Martín García",
                             "province": "Peravia",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/aguas-termales-peravia.jpg",
@@ -565,7 +565,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr11",
+                            "id": "r6a11",
                             "name": "Snorkeling in Peravia",
                             "province": "Peravia",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/snorkeling-peravia.jpg",
@@ -573,7 +573,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr12",
+                            "id": "r6a12",
                             "name": "Polo Magnético",
                             "province": "Barahona",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/polo-magnetico-barahona.jpg",
@@ -581,7 +581,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr13",
+                            "id": "r6a13",
                             "name": "Laguna de Cabral",
                             "province": "Barahona",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/laguna-de-cabral.jpg",
@@ -589,7 +589,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr14",
+                            "id": "r6a14",
                             "name": "Carnaval de las Cachúas",
                             "province": "Barahona",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/carnaval-cachuas-barahona.jpg",
@@ -597,7 +597,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr15",
+                            "id": "r6a15",
                             "name": "Balneario Los Patos",
                             "province": "Barahona",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/balneario-los-patos.jpg",
@@ -605,7 +605,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr16",
+                            "id": "r6a16",
                             "name": "Balneario San Rafael",
                             "province": "Barahona",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/balneario-san-rafael.jpg",
@@ -613,7 +613,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr17",
+                            "id": "r6a17",
                             "name": "Minas de Larimar",
                             "province": "Barahona",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/minas-de-larimar.jpg",
@@ -621,7 +621,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr18",
+                            "id": "r6a18",
                             "name": "Sierra de Baoruco",
                             "province": "Baoruco",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/sierra-de-bahoruco.jpg",
@@ -629,7 +629,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr19",
+                            "id": "r6a19",
                             "name": "Lago Enriquillo",
                             "province": "Baoruco",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/lago-enriquillo.jpg",
@@ -637,7 +637,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr20",
+                            "id": "r6a20",
                             "name": "Balneario de Las Marías",
                             "province": "Baoruco",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/balneario-las-marias.jpg",
@@ -645,7 +645,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr21",
+                            "id": "r6a21",
                             "name": "Parque Nacional Isla Cabritos",
                             "province": "Independencia",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/parque-nacional-isla-cabritos.jpg",
@@ -653,7 +653,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr22",
+                            "id": "r6a22",
                             "name": "Las Caritas de Los Indios",
                             "province": "Independencia",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/las-caritas-de-los-indios.jpg",
@@ -661,7 +661,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr23",
+                            "id": "r6a23",
                             "name": "Balneario Las Barías",
                             "province": "Independencia",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/balneario-las-barias.jpg",
@@ -669,7 +669,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr24",
+                            "id": "r6a24",
                             "name": "Parque Nacional Jaragua",
                             "province": "Pedernales",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/parque-nacional-jaragua.jpg",
@@ -677,7 +677,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr25",
+                            "id": "r6a25",
                             "name": "Laguna de Oviedo",
                             "province": "Pedernales",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/laguna-de-oviedo.jpg",
@@ -685,7 +685,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr26",
+                            "id": "r6a26",
                             "name": "Isla Beata",
                             "province": "Pedernales",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/isla-beata.jpg",
@@ -693,7 +693,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr27",
+                            "id": "r6a27",
                             "name": "Isla Alto Velo",
                             "province": "Pedernales",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/isla-alto-velo.jpg",
@@ -701,7 +701,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr28",
+                            "id": "r6a28",
                             "name": "Bahía de Las Aguilas",
                             "province": "Pedernales",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/bahia-de-las-aguilas.jpg",
@@ -709,7 +709,7 @@ class Repository {
                             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur"
                         },
                         {
-                            "id": "region6attr29",
+                            "id": "r6a29",
                             "name": "Cabo Rojo El Acetillar",
                             "province": "Pedernales",
                             "img": "http://api.drcoderz.com/aws_drtourismskill_imgs/byregion/south-southeast/cabo-rojo-acetillar.jpg",
@@ -726,7 +726,7 @@ class Repository {
     for(var region in attractions['templateData']['attractionsByRegion']){
       allModels.add(RegionModel.fromJSON(region['regionData']));
     }
-    
+
     return allModels;
   }
 
@@ -973,8 +973,61 @@ class Repository {
     return allModels;
   }
 
+  static List<AttractionModel> getAttractionsFromActivity(List<String> attractionIds) {
+
+    List<AttractionModel> activityAttractions = List<AttractionModel>();
+
+    for(var id in attractionIds) {
+      for(var region in allRegions()) {
+        
+        for(var attraction in region.attractions) {
+          if (attraction.id == id) {
+            activityAttractions.add(attraction);
+            break;
+          }
+        }
+      }
+    }
+
+    return activityAttractions;
+  }
+  
   static AttractionModel getCurrentAttraction() {
-    return topAttractions().firstWhere((a) => a.id == currentAttraction);
+    AttractionModel model;
+    
+    for(var b in topAttractions()) {
+      if (b.id == currentAttraction)
+      {
+        model = b;
+        break;
+      }
+    }
+
+    if (model == null) {
+      for(var a in allActivities()) {
+        for(var b in a.attractions) {
+          if (b.id == currentAttraction)
+          {
+            model = b;
+            break;
+          }
+        }
+      }
+    }
+
+    if (model == null) {
+      for(var r in allRegions()) {
+        for(var b in r.attractions) {
+          if (b.id == currentAttraction)
+          {
+            model = b;
+            break;
+          }
+        }
+      }
+    }
+    
+    return model;
   }
 
   static void textToSpeech({String textToSpeech = ''}){
@@ -982,8 +1035,7 @@ class Repository {
     Tts.speak(textToSpeech);
   }
 
-  static Widget getCard({BuildContext context, String topLabel,String bottomLabel,String imgPath, Function onTap})
-  {
+  static Widget getCard({BuildContext context, String topLabel,String bottomLabel,String imgPath, Function onTap}){
     return Container(
           padding: EdgeInsets.all(10.0),
             child: GestureDetector(

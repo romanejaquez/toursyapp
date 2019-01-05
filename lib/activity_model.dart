@@ -1,17 +1,22 @@
+import 'package:sampleapp/attraction_model.dart';
+import 'package:sampleapp/repository.dart';
+
 class ActivityModel {
   String id;
   String name;
   String img;
-  List<String> attractions;
+  List<AttractionModel> attractions;
 
   ActivityModel.fromJSON(dynamic json) {
     id = json['id'];
     name = json['name'];
     img = json['img'];
     
-    attractions = List<String>();
+    var attractionIds = List<String>();
     for(String aId in json['attractions']) {
-      attractions.add(aId);
+      attractionIds.add(aId);
     }
+
+    attractions = Repository.getAttractionsFromActivity(attractionIds);
   }
 }
