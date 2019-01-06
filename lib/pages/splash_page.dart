@@ -1,18 +1,19 @@
 import 'dart:core';
 import 'package:flutter/material.dart';
 import 'package:sampleapp/pages/mainlist_page.dart';
+import 'package:sampleapp/repository.dart';
 import 'dart:async';
 
 class SplashPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
+    Repository.context = context;
     Timer.run(() {
       new Timer(new Duration(days: 0, hours: 0, minutes: 0, seconds: 2, microseconds: 0, milliseconds: 0), () {
         Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => MainListScreen())
+              MaterialPageRoute(builder: (context) => MainListScreenStateful(context))
             );
       });
     });

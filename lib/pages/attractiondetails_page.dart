@@ -33,6 +33,41 @@ class AttractionDetails extends StatelessWidget {
               child: Image.network(currentAttraction.img),
             ),
             Container(
+              padding: EdgeInsets.only(top: 10.0, bottom: 10.0),
+              child: Row(children: <Widget>[
+                Padding(
+                  child: FloatingActionButton(
+                    backgroundColor: Colors.redAccent,
+                    heroTag: 'fav',
+                    child: Icon(Icons.favorite_border, color: Colors.white),
+                    onPressed: () {},
+                  ),
+                  padding: EdgeInsets.only(left: 5.0, right: 5.0)
+                ),
+                Padding(
+                  child: FloatingActionButton(
+                    backgroundColor: Colors.deepOrange,
+                    heroTag: 'star',
+                    child: Icon(Icons.star_border, color: Colors.white),
+                    onPressed: () {},
+                  ),
+                  padding: EdgeInsets.only(left: 5.0, right: 5.0)
+                ),
+                Padding(
+                  child: FloatingActionButton(
+                    heroTag: 'share',
+                    backgroundColor: Colors.blueAccent,
+                    child: Icon(Icons.share, color: Colors.white),
+                    onPressed: () {},
+                  ),
+                  padding: EdgeInsets.only(left: 5.0, right: 5.0)
+                )
+              ],
+              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
+              )
+            ),
+            Container(
               padding: EdgeInsets.all(20.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,

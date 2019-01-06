@@ -4,9 +4,29 @@ import 'package:sampleapp/repository.dart';
 import 'package:sampleapp/pages/attractiondetails_page.dart';
 import 'package:sampleapp/pages/regionlist_page.dart';
 import 'package:sampleapp/pages/activityattractions_page.dart';
+import 'package:sampleapp/carousel_slider.dart';
+import 'package:sampleapp/attraction_model.dart';
+import 'package:sampleapp/activity_model.dart';
 
-class MainListScreen extends StatelessWidget {
+class MainListScreenStateful extends StatefulWidget {
   
+  int currentPage = 0;
+  bool isCarouselVisible = false;
+  BuildContext c;
+
+  MainListScreenStateful(BuildContext context) {
+    c = context;
+  }
+ 
+  @override
+  MainListScreen createState() {
+    return MainListScreen(c);
+  }
+
+}
+
+class MainListScreen extends State<MainListScreenStateful> {
+
   List<Widget> getAllAttractions(BuildContext context) {
     List<Widget> allCards = List<Widget>();
 
@@ -76,13 +96,127 @@ class MainListScreen extends StatelessWidget {
 
     return allCards;
   }
-  
+
+  Widget getAllAttractionsCarousel(BuildContext context) {
+
+    List<AttractionModel> attractions = Repository.topAttractions();
+
+    CarouselSlider instance = CarouselSlider(
+    height: 500,
+    updateCallback: (int page) {
+      setState(() {
+        widget.currentPage = page;
+      });
+    },
+    items: attractions.map((attraction) {
+      return Repository.getCarouselCard(
+        context: context,
+        topLabel: attraction.name,
+        bottomLabel: attraction.province,
+        imgPath: attraction.img,
+        onTap: () {
+          Repository.currentAttraction = attraction.id;
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => AttractionDetails())
+          );
+        }
+      );
+    }).toList(),
+    viewportFraction: 0.7,
+    aspectRatio: 2.0,
+    autoPlay: false,
+  );
+    
+    return Column(
+          children: <Widget>[
+            Padding(
+              padding: EdgeInsets.symmetric(vertical: 5.0),
+              child: instance
+            )
+          ],
+    );
+  }
+
+  Widget getAllActivitiesCarousel(BuildContext context) {
+
+    List<ActivityModel> activities = Repository.allActivities();
+
+    CarouselSlider instance = CarouselSlider(
+    height: 500,
+    items: activities.map((activity) {
+      return Repository.getCarouselCard(
+        context: context,
+        topLabel: activity.name,
+        bottomLabel: activity.attractions.length.toString() + " attractions",
+        imgPath: activity.img,
+        onTap: () {
+          Repository.currentActivity = activity.id;
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => ActivityAttractionsListPage())
+          );
+        }
+      );
+    }).toList(),
+    viewportFraction: 0.7,
+    aspectRatio: 2.0,
+    autoPlay: false,
+  );
+    
+    return Column(
+          children: <Widget>[
+            Padding(
+              padding: EdgeInsets.symmetric(vertical: 5.0),
+              child: instance
+            )
+          ],
+    );
+  }
+
+  Widget attractionsContainer;
+  Widget regionsContainer;
+  Widget activitiesContainer;
+
+  void setContainerBasedOnView(BuildContext context) {
+    widget.isCarouselVisible = !widget.isCarouselVisible;
+
+    if (widget.isCarouselVisible) {
+      attractionsContainer = getAllAttractionsCarousel(context);
+      activitiesContainer = getAllActivitiesCarousel(context);
+      regionsContainer = getAllActivitiesCarousel(context);
+    }
+    else {
+      attractionsContainer = ListView(children: getAllAttractions(context));
+      regionsContainer = ListView(children: getAllRegions(context));
+      activitiesContainer = ListView(children: getAllActivities(context));
+    }
+  }
+
+  MainListScreen(BuildContext context) {
+    attractionsContainer = ListView(children: getAllAttractions(context));
+    regionsContainer = ListView(children: getAllRegions(context));
+    activitiesContainer = ListView(children: getAllActivities(context));
+  }
+
   @override
   Widget build(BuildContext context) {
     return Container(
       child: DefaultTabController(
         length: 3,
         child: Scaffold(
+        floatingActionButton: FloatingActionButton(
+          backgroundColor: Color.fromRGBO(84, 192, 160, 1.0),
+          child: Padding(
+            padding: EdgeInsets.all(10.0),
+            child: Icon(!widget.isCarouselVisible ? Icons.view_carousel : Icons.view_headline)
+          ),
+          onPressed: () {
+            setState(() {
+                setContainerBasedOnView(context);
+            });
+          },
+        ),
         appBar: AppBar(
           automaticallyImplyLeading: false,
           title: Center(
@@ -104,16 +238,11 @@ class MainListScreen extends StatelessWidget {
           ),
         ),
         body: TabBarView(
+          physics: NeverScrollableScrollPhysics(),
           children: <Widget>[
-            ListView(
-              children: getAllAttractions(context)
-            ),
-            ListView(
-              children: getAllRegions(context),
-            ),
-            ListView(
-              children: getAllActivities(context),
-            )
+            attractionsContainer,
+            regionsContainer,
+            activitiesContainer
           ],
         )
       )

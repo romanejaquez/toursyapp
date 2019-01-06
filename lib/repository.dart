@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:core';
 import 'dart:convert';
-import 'package:tts/tts.dart';
+//import 'package:tts/tts.dart';
 import 'package:sampleapp/region_model.dart';
 import 'package:sampleapp/activity_model.dart';
 import 'package:sampleapp/attraction_model.dart';
@@ -10,6 +10,7 @@ class Repository {
   static String currentActivity;
   static String currentAttraction;
   static String currentRegion;
+  static BuildContext context;
 
   static List<RegionModel> allRegions() {
     List<RegionModel> allModels = List<RegionModel>();
@@ -1031,8 +1032,79 @@ class Repository {
   }
 
   static void textToSpeech({String textToSpeech = ''}){
-    Tts.setLanguage('es-MX');
-    Tts.speak(textToSpeech);
+    //Tts.setLanguage('es-MX');
+    //Tts.speak(textToSpeech);
+  }
+
+  static Widget getCarouselCard({BuildContext context, String topLabel,String bottomLabel,String imgPath, Function onTap}) {
+    return Container(
+        padding: EdgeInsets.only(left: 2.0, right: 2.0),
+        margin: EdgeInsets.only(top: 20.0, left: 5.0, right: 5.0, bottom: 60.0),
+        child: GestureDetector(
+          child: Container(
+          decoration: BoxDecoration(
+          boxShadow: <BoxShadow>[
+              BoxShadow(
+                color: Color.fromRGBO(0, 0, 0, 0.4),
+                blurRadius: 20.0,
+                spreadRadius: 4.0,
+                offset: Offset(0.0, 30.0)
+              )
+            ]
+          ),
+          child: ClipRRect(
+          borderRadius: BorderRadius.all(Radius.circular(10.0)),
+            child: Stack(
+              alignment: Alignment.bottomCenter,
+              children: <Widget>[
+                Image.asset('assets/placeholder.jpg',
+                fit: BoxFit.cover,
+                  width: 600.0,
+                  height: 900.0
+                ),
+                Image.network(imgPath,
+                  fit: BoxFit.cover,
+                  width: 600.0,
+                  height: 900.0
+                ),
+                Container(
+                  height: 100.0,
+                  alignment: Alignment.bottomCenter,
+                  padding: EdgeInsets.all(10.0),
+                  decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                      begin: Alignment.bottomCenter,
+                      end: Alignment.topCenter,
+                      colors: [Color.fromRGBO(0, 0, 0, 0.8), Colors.transparent], // whitish to gray
+                    ),
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: <Widget>[
+                      Text(topLabel,
+                      textAlign: TextAlign.left,
+                      style: TextStyle(
+                        fontSize: 20.0,
+                        color: Color.fromRGBO(255, 255, 255, 1.0),
+                        fontWeight: FontWeight.bold)),
+                      Text(bottomLabel, 
+                      textAlign: TextAlign.left,
+                      style: TextStyle(
+                        fontSize: 15.0,
+                        color: Color.fromRGBO(255, 255, 255, 1.0),
+                        fontWeight: FontWeight.normal,
+                        fontStyle: FontStyle.italic))
+                    ],
+                  ),
+                )
+              ],
+            ),
+        ),
+        ),
+        onTap: onTap,
+        )
+      );
   }
 
   static Widget getCard({BuildContext context, String topLabel,String bottomLabel,String imgPath, Function onTap}){
@@ -1040,7 +1112,7 @@ class Repository {
           padding: EdgeInsets.all(10.0),
             child: GestureDetector(
               child: Card(
-            elevation: 3.0,
+            elevation: 4.0,
             clipBehavior: Clip.antiAliasWithSaveLayer,
             margin: EdgeInsets.all(10.0),
             shape: RoundedRectangleBorder(
@@ -1049,7 +1121,16 @@ class Repository {
             child: Stack(
               alignment: Alignment.bottomCenter,
               children: <Widget>[
+                Image.asset('assets/placeholder.jpg'),
                 Image.network(imgPath),
+                Positioned(
+                  child: Row(children: <Widget>[
+                    Icon(
+                      Icons.favorite,
+                      color: Colors.transparent,
+                    )
+                  ],),
+                  top: 10, right: 10,),
                 Container(
                   height: 100.0,
                   alignment: Alignment.bottomCenter,

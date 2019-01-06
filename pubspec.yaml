@@ -13,8 +13,8 @@ environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
 
 dependencies:
-  chewie: ^0.8.0
-  tts: ^1.0.2
+  #chewie: ^0.8.0
+  #tts: ^1.0.2
   flutter:
     sdk: flutter
 
@@ -46,6 +46,10 @@ flutter:
   - assets/dr_map_white.png
   - assets/translation_icon.png
   - assets/video_icon.png
+  - assets/placeholder.jpg
+  - assets/el-morro.jpg
+  - assets/el-reloj-publico.jpg
+  - assets/monumento_a_la_restauracion.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
