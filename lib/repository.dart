@@ -1042,7 +1042,7 @@ class Repository {
         margin: EdgeInsets.only(top: 20.0, left: 5.0, right: 5.0, bottom: 60.0),
         child: GestureDetector(
           child: Container(
-          decoration: BoxDecoration(
+          /*decoration: BoxDecoration(
           boxShadow: <BoxShadow>[
               BoxShadow(
                 color: Color.fromRGBO(0, 0, 0, 0.4),
@@ -1051,7 +1051,7 @@ class Repository {
                 offset: Offset(0.0, 30.0)
               )
             ]
-          ),
+          ),*/
           child: ClipRRect(
           borderRadius: BorderRadius.all(Radius.circular(10.0)),
             child: Stack(
@@ -1112,7 +1112,7 @@ class Repository {
           padding: EdgeInsets.all(10.0),
             child: GestureDetector(
               child: Card(
-            elevation: 4.0,
+              elevation: 0.0,
             clipBehavior: Clip.antiAliasWithSaveLayer,
             margin: EdgeInsets.all(10.0),
             shape: RoundedRectangleBorder(

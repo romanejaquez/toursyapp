@@ -7,6 +7,7 @@ import 'package:sampleapp/pages/activityattractions_page.dart';
 import 'package:sampleapp/carousel_slider.dart';
 import 'package:sampleapp/attraction_model.dart';
 import 'package:sampleapp/activity_model.dart';
+import 'package:sampleapp/region_model.dart';
 
 class MainListScreenStateful extends StatefulWidget {
   
@@ -174,6 +175,42 @@ class MainListScreen extends State<MainListScreenStateful> {
     );
   }
 
+  Widget getAllRegionsCarousel(BuildContext context) {
+
+    List<RegionModel> regions = Repository.allRegions();
+
+    CarouselSlider instance = CarouselSlider(
+    height: 500,
+    items: regions.map((region) {
+      return Repository.getCarouselCard(
+        context: context,
+        topLabel: region.region,
+        bottomLabel: region.attractions.length.toString() + " attractions",
+        imgPath: region.img,
+        onTap: () {
+          Repository.currentRegion = region.id;
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => RegionListPage())
+          );
+        }
+      );
+    }).toList(),
+    viewportFraction: 0.7,
+    aspectRatio: 2.0,
+    autoPlay: false,
+  );
+    
+    return Column(
+          children: <Widget>[
+            Padding(
+              padding: EdgeInsets.symmetric(vertical: 5.0),
+              child: instance
+            )
+          ],
+    );
+  }
+
   Widget attractionsContainer;
   Widget regionsContainer;
   Widget activitiesContainer;
@@ -184,7 +221,7 @@ class MainListScreen extends State<MainListScreenStateful> {
     if (widget.isCarouselVisible) {
       attractionsContainer = getAllAttractionsCarousel(context);
       activitiesContainer = getAllActivitiesCarousel(context);
-      regionsContainer = getAllActivitiesCarousel(context);
+      regionsContainer = getAllRegionsCarousel(context);
     }
     else {
       attractionsContainer = ListView(children: getAllAttractions(context));

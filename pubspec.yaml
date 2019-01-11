@@ -13,8 +13,6 @@ environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
 
 dependencies:
-  #chewie: ^0.8.0
-  #tts: ^1.0.2
   flutter:
     sdk: flutter
 
